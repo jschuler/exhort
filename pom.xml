@@ -22,7 +22,7 @@
     <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
     <quarkus.platform.version>3.2.2.Final</quarkus.platform.version>
     <skipITs>true</skipITs>
-    <cyclonedx.version>7.3.2</cyclonedx.version>
+    <cyclonedx.version>9.0.4</cyclonedx.version>
     <spdx.version>1.1.6</spdx.version>
     <wiremock.version>3.0.0-beta-8</wiremock.version>
     <compiler-plugin.version>3.11.0</compiler-plugin.version>
@@ -246,8 +246,8 @@
                 <include>*.yaml</include>
                 <include>*.json</include>
               </includes>
-              <trimTrailingWhitespace />
-              <endWithNewline />
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
               <indent>
                 <spaces>true</spaces>
                 <spacesPerTab>4</spacesPerTab>
@@ -264,11 +264,11 @@
               <style>GOOGLE</style>
               <reflowLongStrings>true</reflowLongStrings>
             </googleJavaFormat>
-            <formatAnnotations />
+            <formatAnnotations/>
             <importOrder>
               <order>java|javax,org,com,io</order>
             </importOrder>
-            <removeUnusedImports />
+            <removeUnusedImports/>
             <licenseHeader>
               <file>${project.basedir}/src/license/java_header.txt</file>
             </licenseHeader>
